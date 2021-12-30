@@ -94,3 +94,11 @@ MariaDB [belajar]> select * from nilai_ipk_format where `Nama dan IPK` like 'R%'
 | Rudi Permana (2.97)     |
 +-------------------------+
 3 rows in set (0.001 sec)
+
+5. ========================================================================================================================
+
+MariaDB [belajar]> drop view nilai_ipk;
+Query OK, 0 rows affected (0.001 sec)
+
+MariaDB [belajar]> drop view nilai_ipk_format;
+Query OK, 0 rows affected (0.001 sec)
